@@ -70,8 +70,8 @@ for row in f:
             duration_in_traffic_text = key2['duration_in_traffic']['text']
             duration_in_traffic_value = key2['duration_in_traffic']['value']
 
-    #結果を格納
-    result.append([origin, destination, distance_text, distance_value, duration_in_traffic_text, duration_in_traffic_value])
+        #結果を格納
+        result.append([origin, destination, distance_text, distance_value, duration_in_traffic_text, duration_in_traffic_value])
 csv_file.close()
 
 #csvの書き出し
